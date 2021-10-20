@@ -21,31 +21,31 @@ def programs(open_prog):
 
     if "vs code" in open_prog:
 
-        subprocess.Popen(r"C:\Users\manoe\AppData\Local\Programs\Microsoft VS Code\Code.exe")
+        subprocess.Popen(r"caminho/completo/para/o/programa")
         time.sleep(0.5)
 
     if "teams" in open_prog:
 
-        subprocess.Popen(r"C:\Users\manoe\AppData\Local\Microsoft\Teams\current\Teams.exe")
+        subprocess.Popen(r"caminho/completo/para/o/programa")
         time.sleep(0.5)
 
     if "powerpoint" in open_prog:
-        subprocess.Popen(r"C:\Program Files (x86)\Microsoft Office\root\Office16\POWERPNT.exe")
+        subprocess.Popen(r"caminho/completo/para/o/programa")
         time.sleep(0.5)
 
     if "word" in open_prog:
 
-        subprocess.Popen(r"C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.exe")
+        subprocess.Popen(r"caminho/completo/para/o/programa")
         time.sleep(0.5)
     
     if "discord" in open_prog:
 
-        subprocess.Popen(r"C:\Users\manoe\AppData\Local\Discord\app-1.0.9003\Discord.exe")
+        subprocess.Popen(r"caminho/completo/para/o/programa")
         time.sleep(0.5)
     
     if "spotify" in open_prog:
 
-        subprocess.Popen(r"C:\Users\manoe\AppData\Roaming\Spotify\Spotify.exe")
+        subprocess.Popen(r"caminho/completo/para/o/programa")
         time.sleep(0.5)
 
     else:
