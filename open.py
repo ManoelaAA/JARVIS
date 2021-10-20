@@ -16,7 +16,7 @@ def programs(open_prog):
 
     if "google" in open_prog:
         
-        subprocess.Popen(['C:\Program Files\Google\Chrome\Application\chrome.exe '])
+        subprocess.Popen(r'C:\Program Files\Google\Chrome\Application\chrome.exe ')
         time.sleep(0.5)
 
     if "vs code" in open_prog:
