@@ -52,14 +52,14 @@ engine.setProperty('voice', voices[2].id)
 # ----- CONFIGURA O BANCO DE DADOS DO FIREBASE ----- #
 
 # Define o caminho para a chave de segurança do banco de dados
-database = os.path.dirname(__file__) + '\\database\\jarvis-personal-project.json'
+database = os.path.dirname(__file__) + '\\caminho\\para\\chave\\de\\segurança\\do\\bando\\de\\dados.json'
 
 # Buscar o conteúdo do arquivo JSON da chave da conta de serviço
 cred = credentials.Certificate(database)
 
 # Inicialize o aplicativo com uma conta de serviço, concedendo privilégios de administrador
 firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://jarvis-personal-project-default-rtdb.firebaseio.com/'
+    'databaseURL': 'https://endereço-do-banco-de-dados'
 })
 
 
